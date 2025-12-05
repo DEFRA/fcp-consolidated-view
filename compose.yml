@@ -55,7 +55,7 @@ services:
   #   networks:
   #     - cdp-tenant
 
-  cdp-node-backend-template:
+  fcp-consolidated-view:
     build:
       context: .
       target: development
